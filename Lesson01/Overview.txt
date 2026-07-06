@@ -36,9 +36,9 @@ Kiểm tra:
     git config --global --list
 
 Up file:
-    git add .
-    git commit -m "nội dung"
-    git push
+    git add .  // git add tên_file // chọn các file muốn up
+    git commit -m "nội dung"  // đóng gói các file đưa lên xe và gán ghi chú
+    git push // gửi hàng
 
 lấy dữ liệu lần đầu về:
     git clone link_đường_dẫn
@@ -57,7 +57,8 @@ ctrl + Y: tiến lên
 alt + shift + F : format code 
 alt + shift + mũi tên lên/xuống : copy
 ctrl + D : khoanh các nội dung giống nhau (trỏ/sửa nhiều cùng 1 lúc)
-tab : nhảy đến phần code tiếp theo
+tab : nhảy đến phần code tiếp theo (HTML)
+ctrl+/ : comment
 
 tag:  là thẻ HTML 
 tag01#tên_id.tên_class>tag02#tên_id.tên_class*n: Tạo n thẻ tag02 nằm bên trong thẻ tag01
