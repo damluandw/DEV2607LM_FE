@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+  </head>
+  <body>
+    <!-- <table border="1">
+        <tr>
+            <td>STT</td>
+            <td>MSV</td>
+            <td>Họ và tên</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>SV001</td>
+            <td>Nguyễn Văn A</td>
+        </tr>
+    </table> -->
+
+    <table width="80%" border="1" cellspacing="0" cellpadding="6">
+      <caption>
+        Danh sách sinh viên (tiêu đề bảng)
+      </caption>
+      <thead>
+        <tr>
+          <th width="70px">STT</th>
+          <th>MSV</th>
+          <th>Họ và tên</th>
+          <th>Giới tính</th>
+          <th>Điểm TB</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>SV001</td>
+          <td>Nguyễn Văn A</td>
+          <td rowspan="3">Nam</td>
+          <td align="center">5</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>SV002</td>
+          <td>Nguyễn Văn A</td>
+          <!-- <td>Nam</td> -->
+          <td align="right">6</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>SV003</td>
+          <td>Nguyễn Văn A</td>
+          <!-- <td>Nam</td> -->
+          <td align="left">7</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">Điểm trung bình</td>
+          <!-- <td></td>
+          <td></td>
+          <td></td> -->
+          <td>6</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

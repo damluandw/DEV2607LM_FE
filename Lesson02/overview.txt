@@ -1,0 +1,8 @@
+1. HTML
+- 2 cách
++ tính chất
+    ++ block: p, h1 ->h6,ul,li....
+    ++ inline: a, b, u, i,...
++ cấu trúc
+    ++ thẻ đơn: <tên_thẻ /> : <image tên_thuộc_tính= ""/>; <hr/>; <br/> --  nội dung hiển thị phụ thuộc vào thuộc tính của thẻ
+    ++ thẻ kép : <tên_thẻ> nội_dung_hiển_thị <tên_thẻ/>: <p><p/>; <h1><h1/> -- nội dung hiển thị sẽ nằm trong cặp thẻ
