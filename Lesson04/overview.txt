@@ -42,15 +42,14 @@
 - textera
 + Thuộc tính: required, readonly, id, name, placeholder, value, checked, min, max,...
 
-Cách nhớ thẻ CSS
 
-- font: (kết hợp các từ khác: size,weight,family,...)
-- border: (kết hợp các từ khác: style, color, width)
-- border-radius: (top, bottom, left, right)
-- margin/padding: ()
-- color:
-- background: (kết hợp các từ khóa khác: color, image,....)
-- display:  block/none/flex/grid
-- height/width: (kết hợp các từ khác: min, max)
+- Thẻ bố cục nội dung:
+header  > nav
+main 
+    section
+    section
+    section
+    ...
+footer
 
-
+- CSS
